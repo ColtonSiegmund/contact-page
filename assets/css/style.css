@@ -1,0 +1,48 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 550px;
+  height: 570px;
+  margin: 20px auto;
+  border: 15px solid black;
+}
+
+.absolute-container {
+  position: relative;
+}
+
+#relative-box-2 {
+position: relative;
+left: 200px;
+}
+
+#absolute-box-2 {
+position: absolute;
+top: 5px;
+left: 700px;
+}
+img{
+ margin: 0 auto;
+}
+
+nav {
+  position: sticky; top: 0;
+}
