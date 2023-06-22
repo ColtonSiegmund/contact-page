@@ -1,11 +1,11 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
 body {
   position: relative;
   margin: 0;
   padding: 0;
-}
-
-main {
-  padding-top: 100px;
+  background-color: tan;
 }
 
 h1,
@@ -16,33 +16,30 @@ h3 {
 
 img {
   display: block;
+  margin: 0 auto;
 }
 
 .container {
   width: 550px;
   height: 570px;
-  margin: 20px auto;
-  border: 15px solid black;
-}
-
-.absolute-container {
-  position: relative;
-}
-
-#relative-box-2 {
-position: relative;
-left: 200px;
-}
-
-#absolute-box-2 {
-position: absolute;
-top: 5px;
-left: 700px;
-}
-img{
- margin: 0 auto;
+  margin: 0px auto;
+  border: 15px solid rgb(143, 143, 87);
 }
 
 nav {
   position: sticky; top: 0;
+  border: 10px solid rgb(143, 143, 87);
+  background-color: rgb(216, 199, 176);
+  text-align: right;
+}
+form {
+  text-align: center;
+}
+.form-container {
+  width: 550px;
+  height: 100px;
+  border: 10px solid rgb(143, 143, 87);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: rgb(216, 199, 176);
 }

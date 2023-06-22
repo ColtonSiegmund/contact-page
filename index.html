@@ -9,7 +9,9 @@
 
   <body>
     <nav>
-      <h1>Colton Siegmund</h1>
+      <a href=”https://github.com/ColtonSiegmund”>GitHub</a>
+      <a href="https://github.com/ColtonSiegmund">Portfolio</a>
+      <a id="contact">Contact</a>
     </nav>
 
     <main>
@@ -22,11 +24,17 @@
       </section>
 
       <section>
-        <h2>Contact Me</h2>
-        <div class="container absolute-container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="absolute-box-2"src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
+        <h3 id="contact">Contact Me</h3>
+        <div class="form-container">
+          <form action="#" method="POST" class="formcarry-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="fullName" required />
+    
+            <label for="email">Your Email Address</label>
+            <input type="email" id="email" name="email" required />
+    
+            <button type="submit">Send</button>
+          </form>
         </div>
       </section>
     </main>
